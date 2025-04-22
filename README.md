@@ -33,23 +33,23 @@ An end-to-end conversational AI assistant built using **LangChain**, **OpenAI GP
 git clone https://github.com/YOUR_USERNAME/Medical-Chatbot-Gen-AI.git
 cd Medical-Chatbot-Gen-AI
 
-🐍 Step 2: Create and Activate Conda Environment
+### 🐍 Step 2: Create and Activate Conda Environment
 
 ```bash
 conda create -n medbot python=3.10 -y
 conda activate medbot
 
-📥 Step 3: Install Requirements
+### 📥 Step 3: Install Requirements
 
 ```bash
 pip install -r requirements.txt
 
-🔐 Step 4: Set Up Environment Variables
+### 🔐 Step 4: Set Up Environment Variables
 
 OPENAI_API_KEY=your_openai_api_key
 PINECONE_API_KEY=your_pinecone_api_key
 
-🧠 Step 5: Generate and Store Embeddings in Pinecone
+### 🧠 Step 5: Generate and Store Embeddings in Pinecone
 
 ```bash
 python store_index.py
@@ -62,7 +62,7 @@ Converts it into embeddings
 
 Stores it in Pinecone vector DB
 
-🚀 Step 6: Run the Application
+### 🚀 Step 6: Run the Application
 
 ```bash
 python app.py
