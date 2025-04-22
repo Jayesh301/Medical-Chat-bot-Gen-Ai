@@ -33,11 +33,13 @@ An end-to-end conversational AI assistant built using **LangChain**, **OpenAI GP
 git clone https://github.com/YOUR_USERNAME/Medical-Chatbot-Gen-AI.git
 cd Medical-Chatbot-Gen-AI
 
-### 🐍 Step 2: Create and Activate Conda Environment
+### ✅ Step 2: Create and Activate Conda Environment
+
+Run the following command to **create a new environment**:
 
 ```bash
 conda create -n medbot python=3.10 -y
-conda activate medbot
+
 
 ### 📥 Step 3: Install Requirements
 
